@@ -1,0 +1,18 @@
+p {
+    line-height: 2;
+    text-indent: 2em;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+
+    text-align: center;
+}
+
+a {
+    /* 去下划线 */
+    text-decoration: none;
+}

@@ -1,0 +1,22 @@
+/* 外联 01-体验css.html */
+.pone{
+    width: 100px;
+    height: 100px;
+    color: brown;
+    font-size: 23px;
+    background-color: rgb(76, 0, 255);
+}
+#ptwo{
+    width: 100px;
+    height: 100px;
+    color: brown;
+    font-size: 23px;
+    background-color: rgb(238, 255, 0);
+}
+div{
+    width: 100px;
+    height: 100px;
+    color: brown;
+    font-size: 23px;
+    background-color: rgb(21, 255, 0);
+}

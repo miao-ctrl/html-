@@ -1,0 +1,26 @@
+.p1 {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.p2 {
+    font: normal 700 35px 楷体;
+}
+
+p {
+    font-family: 微软雅黑, 黑体, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.d1 {
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+}
+
+.d2 {
+    background-color: rgb(73, 42, 165);
+    width: 200px;
+    height: 200px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* css注释 内嵌式*/
+        /* 标签选择器 选中所有的标签都生效 */
+        p {
+            width: 100px;
+            height: 100px;
+            color: brown;
+            font-size: 23px;
+            background-color: rgb(21, 255, 0);
+        }
+
+        /* 通配符选择器 所有标签*/
+        *{
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <link rel="stylesheet" href="../css/01.css">
+</head>
+
+<body>
+    <!-- 一个标签可以使用多个类名，空格隔开就   好了 -->
+    <p>我是p</p>
+    <p class="pone">我是p1</p>
+    <p class="ptwo" id="ptwo">我是p2</p>
+    <div>我是div</div>
+</body>
+
+</html>

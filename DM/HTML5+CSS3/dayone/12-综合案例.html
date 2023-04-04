@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table border="1" width="300" height="100">
+        <caption>学生信息</caption>
+        <thead>
+            <tr style="color: brown;">
+                <th>年纪</th>
+                <th>姓名</th>
+                <th>学号</th>
+                <th>班级</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">高三</td>
+                <td>张三</td>
+                <td>110</td>
+                <td>3-2</td>
+            </tr>
+            <tr>
+                <td>李四</td>
+                <td>120</td>
+                <td>3-1</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>总结</td>
+                <td colspan="3"> 优秀</td>
+            </tr>
+        </tfoot>
+    </table>
+    <div style="width: 400px;">
+        <h1>青春不在</h1>
+        <hr>
+        <form action="">
+            昵称：<input type="text" name="" id="" placeholder="昵称"><br>
+            性别：<input type="radio" name="sex" id="1">
+            <label for="1">男</label>
+            <input type="radio" name="sex" id="2">
+            <label for="2">女</label><br>
+            所在城市：<select name="" id="">
+                <option value="">南京</option>
+                <option value="">北京</option>
+                <option value="">上海</option>
+                <option value="">广东</option>
+                <option value="">深圳</option>
+                <option value="">杭州</option>
+            </select><br>
+            婚姻状况：<input type="radio" name="hunyin" id="3">
+            <label for="3">未婚</label>
+            <input type="radio" name="hunyin" id="4">
+            <label for="4">已婚</label>
+            <input type="radio" name="hunyin" id="5">
+            <label for="5">离婚</label>
+            <input type="radio" name="hunyin" id="6">
+            <label for="6">保密</label><br>
+            喜欢的类型：<br>
+            <input type="checkbox" name="" id="">萝莉
+            <input type="checkbox" name="" id="">御姐
+            <input type="checkbox" name="" id="">淑女
+            <input type="checkbox" name="" id="">可爱
+            <input type="checkbox" name="" id="">性感<br>
+            <input type="checkbox" name="" id="">大叔
+            <input type="checkbox" name="" id="">小鲜肉你
+            <input type="checkbox" name="" id="">成熟<br>
+            个人介绍：<br>
+            <textarea name="" id="" cols="50" rows="10"></textarea><br>
+            <h2>我承诺</h2>
+            <ul>
+                <li>18岁</li>
+                <li>单身</li>
+                <li>找另一半</li>
+            </ul><br>
+            <input type="checkbox" name="" id="">我同意所有条款<br>
+            <button type="reset">重置</button>
+            <button type="submit">注册</button>
+        </form>
+    </div>
+</body>
+
+</html>
